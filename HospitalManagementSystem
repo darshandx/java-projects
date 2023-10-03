@@ -83,14 +83,12 @@ public class HospitalManagementSystem {
     public static void main(String[] args) {
         List<Patient> patientList=new ArrayList<>();
 
-        // Create and add some patient records
         Patient patient1=new Patient(1, "Ram", 35, "Male", "123 Main St", "12345678");
         Patient patient2=new Patient(2, "Reena", 28, "Female", "456 Elm St", "87654321");
 
         patientList.add(patient1);
         patientList.add(patient2);
 
-        // Display patient information
         for (Patient patient:patientList) {
             System.out.println(patient);
             System.out.println("---------------");
